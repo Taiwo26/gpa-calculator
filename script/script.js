@@ -14,7 +14,6 @@ function gradeToPoint(grade) {
 function addCourse() {
     let course = document.getElementById("course").value;
     let unit = parseFloat(document.getElementById("unit").value);
-    // let unit = document.getElementById("unit").value
     let grade = document.getElementById("grade").value;
 
     if (!course || !unit || !grade) {
